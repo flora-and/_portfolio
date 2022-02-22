@@ -1,0 +1,85 @@
+/* tablet size */
+
+@media screen and (max-width: 800px) {
+    .invisible#load{
+        background-size: 15vh;
+    }
+
+    .b1{
+        height: 10vh;
+    }
+
+    h2, #about > h2, button, h3, .type{
+        font-size: calc(15px + 0.8vh); 
+    }
+
+    h4{
+        display: block;
+        line-height: normal;
+        width: 100%;
+    }
+    
+    p{
+        font-size: calc(14px + 0.3vh);
+    }
+
+    p.cap{
+        text-align: center;
+        padding-bottom: 30px;
+        clear: both;
+    }
+
+    .inner{
+        margin: 20px;
+    }
+
+    .links > span{
+        margin: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    #about{
+        padding: 0 10%;
+    }
+
+    #l{
+        padding: 0px 20px;
+    }
+
+    .wrapl, .wrapr, .wrapf{
+        display: none;
+    }
+
+    .wrapi{
+        width: 200%;
+        padding-right: 0px;
+    }
+    
+    .offset{
+        height: calc(300px + 10vh);
+    }
+
+    .container, .descrip{
+        display:block;
+    }
+    
+    .container{
+        height: 100%;
+        overflow-x: hidden;
+    }
+    
+}
+
+/* mobile */
+
+@media screen and (max-width: 450px) {
+    #about{
+        line-height: 95vh;
+        padding: 0px 20px;
+    }
+
+    #about > h2{
+        font-size: calc(15px + 0.6vh); 
+    }
+
+}
